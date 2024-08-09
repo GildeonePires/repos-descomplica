@@ -1,0 +1,62 @@
+body{
+    margin: 0;
+    padding: 10px;
+}
+
+#titulo {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.subtitulo {
+    background-color: beige;
+    color: red;
+    padding: 10px 0;
+}
+
+nav {
+    overflow: auto; /* Para conter os itens flutuantes */
+    padding: 10px 0; /* Espaço ao redor do menu */
+    background-color: brown;
+}
+
+ul {
+    float: left;
+    list-style: none;
+    margin: 0; /* Remove a margem padrão */
+    padding: 0; /* Remove o preenchimento padrão */
+}
+
+li {
+    float: left;
+    font-size: 12px;
+    letter-spacing: 4px;
+    padding: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+p {
+    font-size: 18px;
+    color: blue;
+    text-align: justify;
+    margin: 10px 0px;
+}
+
+table {
+    width: 100%;
+    padding: 10px;
+}
+
+table tr:nth-child(even){
+    background-color: aquamarine;
+}
+
+table tr:nth-child(odd){
+    background-color: rosybrown;
+}
