@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prática</title>
+  </head>
+  <body>
+    <script>
+      // let bebida = prompt("Escolha uma bebida: Café, Leite ou Chá").trim();
+      // let valor;
+
+      // switch (bebida) {
+      //   case "Café":
+      //     valor = 1.25;
+      //     alert(
+      //       `A bebida escolhida é: "${bebida}" e o valor a ser pago será: "R$ ${valor}"`
+      //     );
+      //     break;
+      //   case "Leite":
+      //     valor = 5.5;
+      //     alert(
+      //       `A bebida escolhida é: "${bebida}" e o valor a ser pago será: "R$ ${valor}"`
+      //     );
+      //     break;
+      //   case "Chá":
+      //     valor = 3.25;
+      //     alert(
+      //       `A bebida  escolhida é: "${bebida}" e o valor a ser pago será: "R$ ${valor}"`
+      //     );
+      //     break;
+      //   default:
+      //     alert(
+      //       `Opção inválida! A bebida escolhida deve ser : "Café" ou "Leite" ou "Chá"`
+      //     );
+      // }
+      const bebidas = ["cafe", "leite", "cha"];
+      let bebida = "";
+      let valor = 0;
+
+      do {
+        bebida = prompt("Digite uma das bebidas: cafe, leite ou cha!");
+        switch (bebida) {
+          case "cafe":
+            valor = 1.25;
+            break;
+          case "leite":
+            valor = 5.8;
+            break;
+          case "cha":
+            valor = 3.5;
+            break;
+          default:
+            alert(`Escolha inválida! Você escolheu a bebida: ${bebida}`);
+        }
+      } while (!bebidas.includes(bebida));
+      alert(
+        `Você escolheu a bebida: ${bebida} e o preço pago será de ${valor.toFixed(
+          2
+        )}`
+      );
+    </script>
+  </body>
+</html>
