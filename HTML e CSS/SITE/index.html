@@ -1,190 +1,245 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Titulo da página</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Titulo da página</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg bg-warning">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Viagem dos Sonhos</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="#">Pacotes</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Taxas</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Contato
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Ação</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li>
-                  <hr class="dropdown-divider" />
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">Something else here</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
+  <body>
+    <header class="container-fluid p-2 bg-warning text-center">
+      <nav class="navbar navbar-expand-lg bg-warning">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Viagem dos Sonhos</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Pacotes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Taxas</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Contato
+                </a>
+                <ul class="dropdown-menu dropdown-menu-end">
+                  <li><a class="dropdown-item" href="#">Ação</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider" />
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
+      <h1>Venha realizar a viagem dos seus sonhos!</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tempore
+        reiciendis illum reprehenderit vel, alias voluptatibus minus quaerat
+        voluptates quo deleniti mollitia libero fugiat aspernatur, similique
+        laboriosam harum, ullam ratione?
+      </p>
+    </header>
+    <section class="container-fluid bg-light text-center p-2">
+      <h2>Conheça nossos pacotes</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisl metus,
+        mattis scelerisque suscipit at, scelerisque vel enim. In nec semper
+        metus, nec commodo turpis. Ut pretium metus nunc, a rutrum lorem
+        pharetra eu. Sed at cursus lorem, ac bibendum purus. Nulla in rhoncus
+        ex, ac efficitur magna. Etiam placerat velit a turpis finibus tincidunt.
+        Fusce augue nisi, molestie consequat finibus non, aliquam eu leo. Donec
+        sollicitudin dui quam, non aliquam lectus blandit nec. Quisque mattis
+        aliquet consequat.
+      </p>
+      <div class="row text-center">
+        <figure class="col text-center">
+          <img
+            src="./img/nossos-pacotes/gramado.jpg"
+            alt="Entrada portal de entrada em gramado"
+          />
+          <figcaption>Gramado</figcaption>
+        </figure>
+        <figure class="col text-center">
+          <img
+            src="./img/nossos-pacotes/porto-seguro.jpg"
+            alt="praia em porto seguro"
+          />
+          <figcaption>Porto seguro</figcaption>
+        </figure>
+        <figure class="col text-center">
+          <img
+            src="./img/nossos-pacotes/rio-de-janeiro.jpg"
+            alt="Cartão postal do Rio de janeiro"
+          />
+          <figcaption>Cristo redentor</figcaption>
+        </figure>
       </div>
-    </nav>
-    <h1>Venha realizar a viagem dos seus sonhos!</h1>
-  </header>
-  <section id="pacotes">
-    <h2>Conheça nossos pacotes</h2>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nisl metus,
-      mattis scelerisque suscipit at, scelerisque vel enim. In nec semper
-      metus, nec commodo turpis. Ut pretium metus nunc, a rutrum lorem
-      pharetra eu. Sed at cursus lorem, ac bibendum purus. Nulla in rhoncus
-      ex, ac efficitur magna. Etiam placerat velit a turpis finibus tincidunt.
-      Fusce augue nisi, molestie consequat finibus non, aliquam eu leo. Donec
-      sollicitudin dui quam, non aliquam lectus blandit nec. Quisque mattis
-      aliquet consequat.
-      <br /><br />
-      <a href="https://www.lipsum.com/feed/html">Link</a>
-    </p>
-    <hr />
-    <div class="row text-center">
-      <figure class="col text-center">
-        <img src="./img/nossos-pacotes/gramado.jpg" alt="Entrada portal de entrada em gramado" />
-        <figcaption>Gramado</figcaption>
-      </figure>
-      <figure class="col text-center">
-        <img src="./img/nossos-pacotes/porto-seguro.jpg" alt="praia em porto seguro" />
-        <figcaption>Porto seguro</figcaption>
-      </figure>
-      <figure class="col text-center">
-        <img src="./img/nossos-pacotes/rio-de-janeiro.jpg" alt="Cartão postal do Rio de janeiro" />
-        <figcaption>Cristo redentor</figcaption>
-      </figure>
-    </div>
-    <div class="videos">
+      <!-- <div class="videos">
       <video controls>
         <source src="video/rabbit320.mp4" type="video/mp4" />
         <source src="video/rabbit320.webm" type="video/webm" />
         Seu navegador não suporta o formato do video.
         <a href="video/rabbit320.mp4">Clique aqui para baixar</a>
       </video>
-    </div>
-  </section>
-  <section>
-    <h2>Taxas e serviços</h2>
-    <p>Veja nossas taxas para serviços</p>
-    <table>
-      <caption>
-        Descrição dos serviços e respectivos valores
-      </caption>
-      <thead>
-        <tr>
-          <th>Serviços</th>
-          <th>Valor</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Reserva de hotel</td>
-          <td>R$150,00</td>
-        </tr>
-        <tr>
-          <td>Compra de passagem</td>
-          <td>R$100,00</td>
-        </tr>
-        <tr>
-          <td>Aluguel de carros</td>
-          <td>R$50,00</td>
-        </tr>
-      </tbody>
-    </table>
-  </section>
-  <section>
-    <h2>Orçamento</h2>
-    <form action="" method="get">
-      <fieldset>
-        <legend>Dados da viagem</legend>
-        <label>Nome</label><br />
-        <input type="text" name="nome" /><br />
-        <br />
+    </div> -->
+    </section>
+    <section class="container-fluid bg-warning text-xl-center p-2">
+      <h2>Taxas e serviços</h2>
+      <table
+        class="table table-warning table-striped table-hover table-bordered border-warning"
+      >
+        <caption>
+          Descrição dos serviços e respectivos valores
+        </caption>
+        <thead class="table-secondary">
+          <tr>
+            <th>Serviços</th>
+            <th>Valor</th>
+          </tr>
+        </thead>
+        <tbody class="table-group-divider">
+          <tr>
+            <td>Reserva de hotel</td>
+            <td>R$150,00</td>
+          </tr>
+          <tr>
+            <td>Compra de passagem</td>
+            <td>R$100,00</td>
+          </tr>
+          <tr>
+            <td>Aluguel de carros</td>
+            <td>R$50,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
 
-        <label>E-mail</label><br />
-        <input type="email" required name="email" /><br /><br />
+    <section class="container-fluid bg-light p-2">
+      <h2 class="text-center">Faça já seu orçamento!</h2>
+      <form action="" method="get">
+        <fieldset>
+          <legend>Dados pessoais</legend>
+          <div class="mb-0 mt-1">
+            <label class="form-label" for="nome">Nome:</label>
+          </div>
+          <input class="form-control" type="text" name="nome" id="nome" />
 
-        <label>Data de ida</label><br />
-        <input type="date" name="dataIda" /><br /><br />
+          <div class="mb-0 mt-1">
+            <label class="form-label" for="email">E-mail:</label>
+          </div>
+          <input
+            class="form-control"
+            type="email"
+            required
+            name="email"
+            placeholder="email@xyz.com"
+            id="email"
+          />
 
-        <label>Data de volta</label><br />
-        <input type="date" name="dataVolta" /><br /><br />
+          <div class="mb-0 mt-1">
+            <label class="form-label" for="dataIda">Data de ida:</label>
+          </div>
+          <input class="form-control" type="date" name="dataIda" id="dataIda" />
 
-        <label>Quantidade de pessoas</label><br />
-        <input type="number" name="qtdPessoas" /><br /><br />
-      </fieldset>
+          <div class="mb-0 mt-1">
+            <label class="form-label" for="dataVolta">Data de volta:</label>
+          </div>
+          <input
+            class="form-control"
+            type="date"
+            name="dataVolta"
+            id="dataVolta"
+          /><br>
+        </fieldset>
 
-      <fieldset>
-        <legend>Quais serviços deseja contratar</legend>
-        <label><br /><input type="checkbox" name="passagem" value="Passagem" />Compra de passagens
-        </label>
-        <label>
-          <br /><input type="checkbox" name="hospedagem" value="Hospedagem" />Reserva de hospedagem
-        </label>
-        <label>
-          <br /><input type="checkbox" name="veiculos" value="Veiculo" />Reserva de veiculos
-        </label>
-      </fieldset>
-      <fieldset>
-        <legend>Escolha forma de pagamento</legend>
-        <label>
-          <br /><input type="radio" name="formaPagamento" value="Cartão de crédito" />Cartão de crédito
-        </label>
-        <label>
-          <br /><input type="radio" name="formaPagamento" value="Boleto" />Boleto
-        </label>
-        <label>
-          <br /><input type="radio" name="formaPagamento" value="Pix" />Pix
-        </label>
-      </fieldset>
+        <fieldset>
+          <legend>Quais serviços deseja contratar</legend>
+          <div class="form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              name="passagem"
+              value="Passagem"
+              id="comprarPassagens"
+            />
+            <label class="form-check-label" for="comprarPassagens"
+              >Compra de passagens</label
+            >
+          </div>
+          <div class="form-check">
+            <input
+              type="checkbox"
+              class="form-check-input"
+              name="hospedagem"
+              value="Hospedagem"
+              id="hospedagem"
+            />
 
-      <fieldset>
-        <legend>Escolha o prazo para pagamento</legend>
-        <select name="prazoPagamento">
-          <option value="aVista">Á vista</option>
-          <option value="5x">5x sem juros</option>
-          <option value="10x" selected>10x com juros</option>
-        </select>
-      </fieldset>
+            <label class="form-check-label" for="hospedagem"
+              >Reserva de hospedagem</label
+            >
+          </div>
 
-      <label>Comentário</label><br />
-      <textarea rows="5" name="comentario"></textarea><br /><br />
+          <div class="form-check">
+            <input
+              class="form-check-input"
+              id="aluguelVeiculos"
+              type="checkbox"
+              name="veiculos"
+              value="Veiculo"
+            />
+            <label class="form-check-label" for="aluguelVeiculos"
+              >Aluguel de veículos
+            </label>
+          </div>
+        </fieldset>
+        <br>
+        <button class="btn btn-secondary">Salvar</button>
+      </form>
+    </section>
+    <footer class="container-fluid bg-warning text-center">
+      <p>Desenvolvido por Gildeone Pires de Paula</p>
+    </footer>
 
-      <button>Salvar</button>
-    </form>
-  </section>
-  <footer>
-    <p>Desenvolvido por Gildeone Pires de Paula</p>
-  </footer>
-
-  <hr />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-    crossorigin="anonymous"></script>
-</body>
-
+    <hr />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
